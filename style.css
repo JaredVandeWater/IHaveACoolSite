@@ -3,34 +3,42 @@
 }
 
 
+
 h1,h2,h3,h4,p{
-    margin: 0rem;
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    margin: 0;
+    padding: 0;
 }
 
-h2{
+.c-text{
     text-align: center;
 }
+
+
+
 .title{
     background-color: var(--main-blue);
     color: white;
-    margin: 2rem;
-    text-align: center;
-
+    padding-top: 1rem;
+    padding-bottom: .5rem;
 }
+
+
+.title2
 
 
 .d-flex{
     display: flex;
 }
 
-footer{
-    min-width: 0rem;
-    min-height: 1rem;
-    max-height: 10rem;
-    background-color: var(--main-blue);
+.stretch{
+    align-items: stretch;
 }
 
-main, .title{
-    flex-grow: 1;
-    flex-shrink: 0;
+footer{
+    background-color: var(--main-blue);
+    min-height: 5rem;
 }

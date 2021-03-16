@@ -11,6 +11,7 @@ h1,h2,h3,h4,p{
 html, body {
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .c-text{
@@ -28,19 +29,48 @@ html, body {
 
 
 .title2{
-    margin-top: 3rem;
+    margin-top: 2rem;
+    padding-top: .5rem;
+
     margin-bottom: 2rem;
-    border-color: tomato;
+    border-top: 20px solid #d2e2f4;
 }
 
 
 .d-flex{
     display: flex;
+    
 }
 
-
+.info{
+    max-width: 20rem;
+    padding-left: 2rem;
+}
 
 footer{
     background-color: var(--main-blue);
     min-height: 5rem;
 }
+
+.leftside{
+    max-width: 30rem;
+    padding-bottom: 2rem;
+    margin-right: 5rem;
+
+}
+
+.rightside{
+    padding-top: 5rem;
+
+}
+
+.justifycontent{
+    justify-content: center;
+}
+
+.anotherarticle{
+    margin-left: 1rem;
+}
+.anotherarticle2{
+    margin-left: 1rem;
+    max-width: 14rem;

@@ -82,7 +82,45 @@ footer{
 
 .anotherarticle{
     margin-left: 1rem;
+    margin-top: 0.5rem;
 }
 .anotherarticle2{
     margin-left: 1rem;
     max-width: 14rem;
+}
+
+.leftmost{
+
+    max-width: 10rem
+}
+
+/* @media only screen and (max-width: 600px){
+    .rightside{
+        display: none;
+    }
+    .info{
+        padding-left: 0rem;
+    }
+    .leftside{
+        margin-right: 5rem;
+    }
+    .rightsidemobile{
+        display: block;
+    }
+
+}
+@media only screen and (min-width: 600px){
+    .rightside{
+        display: flex;
+    }
+    .info{
+        padding-left: 0rem;
+    }
+    .leftside{
+        margin-right: 0rem;
+    }
+    .rightsidemobile{
+        display: block;
+    }
+
+} */

@@ -27,16 +27,18 @@ html, body {
 }
 
 
-.title2
+.title2{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    border-color: tomato;
+}
 
 
 .d-flex{
     display: flex;
 }
 
-.stretch{
-    align-items: stretch;
-}
+
 
 footer{
     background-color: var(--main-blue);

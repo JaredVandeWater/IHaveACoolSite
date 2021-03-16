@@ -12,7 +12,18 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+
 }
+body {
+    display: flex;
+    flex-direction: column;
+}
+.content{
+    flex: 1 0 auto;
+}
+
+
 
 .c-text{
     text-align: center;
@@ -43,13 +54,14 @@ html, body {
 }
 
 .info{
-    max-width: 20rem;
+    max-width: 22rem;
     padding-left: 2rem;
 }
 
 footer{
     background-color: var(--main-blue);
     min-height: 5rem;
+    flex-shrink: 0;
 }
 
 .leftside{
